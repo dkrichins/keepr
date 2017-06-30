@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <h1>Welcome to Keepr</h1>
     <p>Get Started</p>
     <ul>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'home',
   data () {
     return {
 

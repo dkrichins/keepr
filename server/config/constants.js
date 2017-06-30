@@ -7,6 +7,16 @@ const actions = {
 }
 
 const models = {
+  vault: {
+    name: 'Vault',
+    endpoint: 'vaults',
+    useCustomRoutes: true
+  },
+  keep: {
+    name: 'Keep',
+    endpoint: 'keeps',
+    
+  },
   user: {
     name: 'User',
     endpoint: 'users',
@@ -14,7 +24,6 @@ const models = {
     useCustomRoutes: true
   }
 }
-
 
 export  {
   actions,

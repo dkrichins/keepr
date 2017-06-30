@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug-15": "node --debug index.js",
+    "debug-15": "node --inspect index.js",
     "start-15": "node index.js",
-    "debug": "babel-node --presets es2015 --debug index.js",
+    "debug": "babel-node --presets es2015 --inspect index.js",
     "start": "babel-node --presets es2015 index.js"
   },
   "author": "Jake Overall <joverall22@gmail.com>",
@@ -22,6 +22,7 @@
     "express": "^4.14.1",
     "express-session": "^1.15.0",
     "mongoose": "^4.8.1",
+    "node-cli": "^0.1.0",
     "socket.io": "^1.7.3"
   },
   "engines": {
